@@ -140,7 +140,6 @@ if [ -e "$file" ]; then
   clear
   touch /var/plexguide/new.install
   bash /opt/plexguide/roles/ending/ending.sh
-  echo
   echo "Type 'plexguide' again to complete the process!"
   exit
 fi
