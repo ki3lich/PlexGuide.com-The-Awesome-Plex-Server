@@ -130,3 +130,4 @@ file="/var/plexguide/multi.unionfs"
   if [ ! -e "$file" ]; then
     echo "[NOT-SET]" > /var/plexguide/pg.serverid
   fi
+
